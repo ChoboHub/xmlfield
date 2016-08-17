@@ -34,7 +34,7 @@ class FieldXML extends fieldTextarea
         }
 
         include_once(TOOLKIT . '/class.xsltprocess.php');
-        $xsltProc =& new XsltProcess;
+        $xsltProc = new XsltProcess;
 
         if (!General::validateXML($data, $errors, false, $xsltProc)) {
 
